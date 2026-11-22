@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "protyus": {
+      "url": "https://app.protyus.ai/api/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:PROTYUS_API_KEY}",
+        "X-Protyus-Org": "${env:PROTYUS_ORG}"
+      }
+    }
+  }
+}

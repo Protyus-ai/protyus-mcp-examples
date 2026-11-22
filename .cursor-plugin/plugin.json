@@ -1,0 +1,8 @@
+{
+  "name": "protyus",
+  "displayName": "Protyus",
+  "description": "Manufacturing analysis from a STEP file: DFM findings, setups, cycle time, cost and quotes.",
+  "author": { "name": "Protyus", "email": "support@protyus.ai" },
+  "homepage": "https://protyus.ai/mcp",
+  "license": "MIT"
+}

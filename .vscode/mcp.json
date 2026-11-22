@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    { "type": "promptString", "id": "protyus-api-key", "description": "Protyus API key (ak_...)", "password": true },
+    { "type": "promptString", "id": "protyus-org", "description": "Protyus organization id (org_...)" }
+  ],
+  "servers": {
+    "protyus": {
+      "type": "http",
+      "url": "https://app.protyus.ai/api/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:protyus-api-key}",
+        "X-Protyus-Org": "${input:protyus-org}"
+      }
+    }
+  }
+}
